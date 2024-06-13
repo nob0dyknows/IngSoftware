@@ -1,0 +1,44 @@
+.pato {
+    padding: 10px;
+}
+
+.row{
+    display: grid;
+    max-width: 1200px;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 6px;
+}
+
+.card {
+    flex: 1 1 calc(25% - 20px);
+    background-color: aquamarine; 
+    border: 1px solid #ccc;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+}
+
+.card .image-container {
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente */
+    height: 200px; /* Altura fija del contenedor de la imagen */
+    overflow: hidden; /* Oculta cualquier contenido desbordado */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+}
+
